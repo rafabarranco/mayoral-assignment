@@ -1,0 +1,444 @@
+[
+  {
+    "id": "300000000008748645",
+    "name": "Chaquetón ultraligero chico",
+    "image": "https://assets.mayoral.com/images/v1713785143/14-07456-016-XL-4/chaqueton-ultraligero-chico-azufre-XL-4.jpg",
+    "price": {
+      "retail": 47.99,
+      "current": 38.39,
+      "isDiscounted": true,
+      "discountPercentage": 20
+    },
+    "colors": [
+      {
+        "id": "300000000008748638",
+        "name": "Wine",
+        "image": "https://assets.mayoral.com/images/v1714028537/WINE-I24/WINE-I24.png"
+      },
+      {
+        "id": "300000000008761759",
+        "name": "Marino",
+        "image": "https://assets.abelandlula.com/images/v1713865967/MARINO-I24/MARINO-I24.png"
+      },
+      {
+        "id": "300000000008761766",
+        "name": "Negro",
+        "image": "https://assets.abelandlula.com/images/v1713866031/NEGRO-I24/NEGRO-I24.png"
+      }
+    ]
+  },
+  {
+    "id": "300000000008761766",
+    "name": "Chaquetón ultraligero chico",
+    "image": "https://assets.mayoral.com/images/v1721031926/14-07456-018-XL-4/chaqueton-ultraligero-chico-negro-XL-4.jpg",
+    "price": {
+      "retail": 47.99,
+      "current": 38.39,
+      "isDiscounted": true,
+      "discountPercentage": 20
+    },
+    "colors": [
+      {
+        "id": "300000000008748638",
+        "name": "Wine",
+        "image": "https://assets.mayoral.com/images/v1714028537/WINE-I24/WINE-I24.png"
+      },
+      {
+        "id": "300000000008748645",
+        "name": "Azufre",
+        "image": "https://assets.mayoral.com/images/v1713860355/AZUFRE-I24/AZUFRE-I24.png"
+      },
+      {
+        "id": "300000000008761759",
+        "name": "Marino",
+        "image": "https://assets.abelandlula.com/images/v1713865967/MARINO-I24/MARINO-I24.png"
+      }
+    ]
+  },
+  {
+    "id": "300000000008746886",
+    "name": "Chaquetón estampado chico",
+    "image": "https://assets.mayoral.com/images/v1712938946/14-07461-001-XL-1/chaqueton-estampado-chico-negro-XL-1.jpg",
+    "price": {
+      "retail": 59.99,
+      "current": 47.99,
+      "isDiscounted": true,
+      "discountPercentage": 20
+    },
+    "colors": []
+  },
+  {
+    "id": "300000000008761759",
+    "name": "Chaquetón ultraligero chico",
+    "image": "https://assets.mayoral.com/images/v1721031923/14-07456-017-XL-4/chaqueton-ultraligero-chico-marino-XL-4.jpg",
+    "price": {
+      "retail": 47.99,
+      "current": 38.39,
+      "isDiscounted": true,
+      "discountPercentage": 20
+    },
+    "colors": [
+      {
+        "id": "300000000008748638",
+        "name": "Wine",
+        "image": "https://assets.mayoral.com/images/v1714028537/WINE-I24/WINE-I24.png"
+      },
+      {
+        "id": "300000000008748645",
+        "name": "Azufre",
+        "image": "https://assets.mayoral.com/images/v1713860355/AZUFRE-I24/AZUFRE-I24.png"
+      },
+      {
+        "id": "300000000008761766",
+        "name": "Negro",
+        "image": "https://assets.abelandlula.com/images/v1713866031/NEGRO-I24/NEGRO-I24.png"
+      }
+    ]
+  },
+  {
+    "id": "300000000008747252",
+    "name": "Chaquetón acolchado interior chico",
+    "image": "https://assets.mayoral.com/images/v1713785626/14-07460-031-XL-4/chaqueton-acolchado-interior-chico-marino-XL-4.jpg",
+    "price": {
+      "retail": 59.99,
+      "current": 47.99,
+      "isDiscounted": true,
+      "discountPercentage": 20
+    },
+    "colors": [
+      {
+        "id": "300000000008747259",
+        "name": "Tormenta",
+        "image": "https://assets.mayoral.com/images/v1714028741/TORMENTA-I24/TORMENTA-I24.png"
+      }
+    ]
+  },
+  {
+    "id": "300000000008761778",
+    "name": "Chaquetón parka chico",
+    "image": "https://assets.mayoral.com/images/v1724675552/14-07459-028-XL-4/chaqueton-parka-chico-marino-XL-4.jpg",
+    "price": {
+      "retail": 59.99,
+      "current": 47.99,
+      "isDiscounted": true,
+      "discountPercentage": 20
+    },
+    "colors": []
+  },
+  {
+    "id": "300000000008748638",
+    "name": "Chaquetón ultraligero chico",
+    "image": "https://assets.mayoral.com/images/v1714665977/14-07456-015-XL-2/chaqueton-ultraligero-chico-wine-XL-2.jpg",
+    "price": {
+      "retail": 47.99,
+      "current": 38.39,
+      "isDiscounted": true,
+      "discountPercentage": 20
+    },
+    "colors": [
+      {
+        "id": "300000000008748645",
+        "name": "Azufre",
+        "image": "https://assets.mayoral.com/images/v1713860355/AZUFRE-I24/AZUFRE-I24.png"
+      },
+      {
+        "id": "300000000008761759",
+        "name": "Marino",
+        "image": "https://assets.abelandlula.com/images/v1713865967/MARINO-I24/MARINO-I24.png"
+      },
+      {
+        "id": "300000000008761766",
+        "name": "Negro",
+        "image": "https://assets.abelandlula.com/images/v1713866031/NEGRO-I24/NEGRO-I24.png"
+      }
+    ]
+  },
+  {
+    "id": "300000000008747259",
+    "name": "Chaquetón acolchado interior chico",
+    "image": "https://assets.mayoral.com/images/v1714665980/14-07460-032-XL-2/chaqueton-acolchado-interior-chico-tormenta-XL-2.jpg",
+    "price": {
+      "retail": 59.99,
+      "current": 47.99,
+      "isDiscounted": true,
+      "discountPercentage": 20
+    },
+    "colors": [
+      {
+        "id": "300000000008747252",
+        "name": "Marino",
+        "image": "https://assets.mayoral.com/images/v1730200935/MARINO-V25/MARINO-V25.png"
+      }
+    ]
+  },
+  {
+    "id": "300000000008762273",
+    "name": "Chaquetón acolchado chico",
+    "image": "https://assets.mayoral.com/images/v1724674000/14-07457-039-XL-4/chaqueton-acolchado-chico-negro-XL-4.jpg",
+    "price": {
+      "retail": 57.99,
+      "current": 46.39,
+      "isDiscounted": true,
+      "discountPercentage": 20
+    },
+    "colors": [
+      {
+        "id": "300000000008724637",
+        "name": "Laguna",
+        "image": "https://assets.mayoral.com/images/v1714488676/LAGUNA-I24/LAGUNA-I24.png"
+      }
+    ]
+  },
+  {
+    "id": "300000000008725479",
+    "name": "Chaquetón acolchado detalle reflectante chico",
+    "image": "https://assets.mayoral.com/images/v1713787313/14-07458-022-XL-1/chaqueton-acolchado-detalle-reflectante-chico-botanic-XL-1.jpg",
+    "price": {
+      "retail": 57.99,
+      "current": 40.59,
+      "isDiscounted": true,
+      "discountPercentage": 30
+    },
+    "colors": [
+      {
+        "id": "300000000008725478",
+        "name": "Visón",
+        "image": "https://assets.mayoral.com/images/v1714028566/VISON-I24/VISON-I24.png"
+      }
+    ]
+  },
+  {
+    "id": "300000000008725478",
+    "name": "Chaquetón acolchado detalle reflectante chico",
+    "image": "https://assets.mayoral.com/images/v1712910055/14-07458-021-XL-1/chaqueton-acolchado-detalle-reflectante-chico-vison-XL-1.jpg",
+    "price": {
+      "retail": 57.99,
+      "current": 40.59,
+      "isDiscounted": true,
+      "discountPercentage": 30
+    },
+    "colors": [
+      {
+        "id": "300000000008725479",
+        "name": "Botanic",
+        "image": "https://assets.mayoral.com/images/v1713865473/BOTANIC-I24/BOTANIC-I24.png"
+      }
+    ]
+  },
+  {
+    "id": "300000000008724637",
+    "name": "Chaquetón acolchado chico",
+    "image": "https://assets.mayoral.com/images/v1712910052/14-07457-037-XL-1/chaqueton-acolchado-chico-laguna-XL-1.jpg",
+    "price": {
+      "retail": 57.99,
+      "current": 46.39,
+      "isDiscounted": true,
+      "discountPercentage": 20
+    },
+    "colors": [
+      {
+        "id": "300000000008762273",
+        "name": "Negro",
+        "image": "https://assets.abelandlula.com/images/v1713866031/NEGRO-I24/NEGRO-I24.png"
+      }
+    ]
+  },
+  {
+    "id": "300000000008747521",
+    "name": "Americana vestir chico",
+    "image": "https://assets.mayoral.com/images/v1713785132/14-07454-093-XL-4/americana-vestir-chico-marino-XL-4.jpg",
+    "price": {
+      "retail": 55.99,
+      "current": 39.19,
+      "isDiscounted": true,
+      "discountPercentage": 30
+    },
+    "colors": [
+      {
+        "id": "300000000008757613",
+        "name": "Lápiz vigoré",
+        "image": "https://assets.mayoral.com/images/v1714633802/LAPIZ_VIGORE-I24/LAPIZ_VIGORE-I24.png"
+      }
+    ]
+  },
+  {
+    "id": "300000000008757613",
+    "name": "Americana vestir chico",
+    "image": "https://assets.mayoral.com/images/v1724675548/14-07454-094-XL-4/americana-vestir-chico-lapiz-vigore-XL-4.jpg",
+    "price": {
+      "retail": 55.99,
+      "current": 39.19,
+      "isDiscounted": true,
+      "discountPercentage": 30
+    },
+    "colors": [
+      {
+        "id": "300000000008747521",
+        "name": "Marino",
+        "image": "https://assets.abelandlula.com/images/v1713865967/MARINO-I24/MARINO-I24.png"
+      }
+    ]
+  },
+  {
+    "id": "300000000008756451",
+    "name": "Beisbolera chico",
+    "image": "https://assets.mayoral.com/images/v1724673429/14-07455-034-XL-4/beisbolera-chico-marino-XL-4.jpg",
+    "price": {
+      "retail": 42.99,
+      "current": 30.09,
+      "isDiscounted": true,
+      "discountPercentage": 30
+    },
+    "colors": []
+  },
+  {
+    "id": "300000000008745472",
+    "name": "Beisbolera chico",
+    "image": "https://assets.mayoral.com/images/v1713787311/14-07455-033-XL-1/beisbolera-chico-lapiz-vigore-XL-1.jpg",
+    "price": {
+      "retail": 42.99,
+      "current": 30.09,
+      "isDiscounted": true,
+      "discountPercentage": 30
+    },
+    "colors": [
+      {
+        "id": "300000000008756451",
+        "name": "Marino",
+        "image": "https://assets.abelandlula.com/images/v1713865967/MARINO-I24/MARINO-I24.png"
+      }
+    ]
+  },
+  {
+    "id": "300000000008775059",
+    "name": "Chaleco reversible acolchado chico",
+    "image": "https://assets.mayoral.com/images/v1724672970/14-07397-020-XL-4/chaleco-reversible-acolchado-chico-marino-wine-XL-4.jpg",
+    "price": {
+      "retail": 42.99,
+      "current": 34.39,
+      "isDiscounted": true,
+      "discountPercentage": 20
+    },
+    "colors": [
+      {
+        "id": "300000000008747742",
+        "name": "Ámbar marino",
+        "image": "https://assets.mayoral.com/images/v1713860168/AMBAR_MARINO-I24/AMBAR_MARINO-I24.png"
+      }
+    ]
+  },
+  {
+    "id": "300000000008744079",
+    "name": "Chaleco tricot chico",
+    "image": "https://assets.mayoral.com/images/v1720455578/14-07395-015-XL-4/chaleco-tricot-chico-ancla-vigore-XL-4.jpg",
+    "price": {
+      "retail": 27.99,
+      "current": 22.39,
+      "isDiscounted": true,
+      "discountPercentage": 20
+    },
+    "colors": [
+      {
+        "id": "300000000008744072",
+        "name": "Marino",
+        "image": "https://assets.abelandlula.com/images/v1713865967/MARINO-I24/MARINO-I24.png"
+      }
+    ]
+  },
+  {
+    "id": "300000000008744072",
+    "name": "Chaleco tricot chico",
+    "image": "https://assets.mayoral.com/images/v1712581949/14-07395-014-XL-1/chaleco-tricot-chico-marino-XL-1.jpg",
+    "price": {
+      "retail": 27.99,
+      "current": 22.39,
+      "isDiscounted": true,
+      "discountPercentage": 20
+    },
+    "colors": [
+      {
+        "id": "300000000008744079",
+        "name": "Ancla vigoré",
+        "image": "https://assets.mayoral.com/images/v1713860200/ANCLA_VIGORE-I24/ANCLA_VIGORE-I24.png"
+      }
+    ]
+  },
+  {
+    "id": "300000000008762266",
+    "name": "Chaleco acolchado ultraligero chico",
+    "image": "https://assets.mayoral.com/images/v1721031915/14-07396-015-XL-4/chaleco-acolchado-ultraligero-chico-marino-XL-4.jpg",
+    "price": {
+      "retail": 37.99,
+      "current": 30.39,
+      "isDiscounted": true,
+      "discountPercentage": 20
+    },
+    "colors": [
+      {
+        "id": "300000000008726937",
+        "name": "Visón",
+        "image": "https://assets.mayoral.com/images/v1714028566/VISON-I24/VISON-I24.png"
+      }
+    ]
+  },
+  {
+    "id": "300000000008747742",
+    "name": "Chaleco reversible acolchado chico",
+    "image": "https://assets.mayoral.com/images/v1721205020/14-07397-019-XL-3/chaleco-reversible-acolchado-chico-ambar-marino-XL-3.gif",
+    "price": {
+      "retail": 42.99,
+      "current": 34.39,
+      "isDiscounted": true,
+      "discountPercentage": 20
+    },
+    "colors": [
+      {
+        "id": "300000000008775059",
+        "name": "Marino-Wine",
+        "image": "https://assets.mayoral.com/images/v1714636992/MARINO_WINE-I24/MARINO_WINE-I24.png"
+      }
+    ]
+  },
+  {
+    "id": "300000000008726937",
+    "name": "Chaleco acolchado ultraligero chico",
+    "image": "https://assets.mayoral.com/images/v1712910020/14-07396-014-XL-1/chaleco-acolchado-ultraligero-chico-vison-XL-1.jpg",
+    "price": {
+      "retail": 37.99,
+      "current": 30.39,
+      "isDiscounted": true,
+      "discountPercentage": 20
+    },
+    "colors": [
+      {
+        "id": "300000000008762266",
+        "name": "Marino",
+        "image": "https://assets.abelandlula.com/images/v1713865967/MARINO-I24/MARINO-I24.png"
+      }
+    ]
+  },
+  {
+    "id": "300000000008773503",
+    "name": "Chaleco bolsillos chico",
+    "image": "https://assets.mayoral.com/images/v1720773527/14-57421-700-XL-4/chaleco-bolsillos-chico-marino-XL-4.jpg",
+    "price": {
+      "retail": 35.99,
+      "current": 25.19,
+      "isDiscounted": true,
+      "discountPercentage": 30
+    },
+    "colors": []
+  },
+  {
+    "id": "300000000008798063",
+    "name": "Chaleco chico",
+    "image": "https://assets.mayoral.com/images/v1726510785/25-56408-700-XL-4/chaleco-chico-ink-XL-4.jpg",
+    "price": {
+      "retail": 32.99,
+      "current": 32.99,
+      "isDiscounted": false,
+      "discountPercentage": 0
+    },
+    "colors": []
+  }
+]
