@@ -1,7 +1,24 @@
-import { NextPage } from "next";
+import { GetStaticProps, NextPage } from 'next';
 
-const HomePage: NextPage = () => {
-  return <div>Hello World!</div>;
+import { fetchProducts } from 'lib/products/fetch';
+
+import Products from 'components/Products';
+
+import { IProductsProps } from './types';
+
+const ProductsPage: NextPage = ({ initialProducts }: IProductsProps) => (
+  <Products initialProducts={initialProducts} />
+);
+
+export const getStaticProps: GetStaticProps = async () => {
+  const initialProducts = await fetchProducts();
+
+  return {
+    props: {
+      initialProducts,
+    },
+    revalidate: 10,
+  };
 };
 
-export default HomePage;
+export default ProductsPage;
