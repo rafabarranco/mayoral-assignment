@@ -13,6 +13,7 @@ junit.xml
 # next.js
 .next
 out
+.env.local
 
 # typescript
 tsconfig.tsbuildinfo
