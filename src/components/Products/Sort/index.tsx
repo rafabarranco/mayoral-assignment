@@ -10,7 +10,9 @@ const ProductsSort: FC<IProductsSortProps> = ({ sortOrder, onChangeOrder }) => (
       value={sortOrder}
       onChange={(e) => onChangeOrder(e.target.value as TSortOrder)}
     >
-      <option value="">Ordenar</option>
+      <option value="" disabled hidden>
+        Ordenar
+      </option>
       <option value="asc">Precio Ascendente</option>
       <option value="desc">Precio Descendente</option>
     </select>
