@@ -6,7 +6,7 @@ import Products from 'components/Products';
 
 import { IProductsProps } from './types';
 
-const ProductsPage: NextPage = ({ initialProducts }: IProductsProps) => (
+const ProductsPage: NextPage<IProductsProps> = ({ initialProducts }) => (
   <Products initialProducts={initialProducts} />
 );
 
@@ -17,7 +17,7 @@ export const getStaticProps: GetStaticProps = async () => {
     props: {
       initialProducts,
     },
-    revalidate: 10,
+    revalidate: 3600,
   };
 };
 
