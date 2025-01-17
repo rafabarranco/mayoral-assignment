@@ -4,7 +4,7 @@ import { ICardPriceProps } from './types';
 
 const CardPrice: FC<ICardPriceProps> = ({ price }) => {
   const parsePrice = (price: number): string => {
-    return price.toLocaleString().replace('.', ',');
+    return price.toFixed(2).replace('.', ',');
   };
   return (
     <div className="mt-2 text-center">
