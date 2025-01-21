@@ -23,7 +23,7 @@ const ProductCard: FC<TProductCardProps> = ({ image, name, price, colors }) => (
     <CardSection>
       <CardColors colors={colors} />
     </CardSection>
-    <footer className="mt-4 text-center">
+    <footer className="mt-4 flex justify-center items-center">
       <CardButton />
     </footer>
   </article>
