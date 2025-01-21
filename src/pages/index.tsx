@@ -1,24 +1,33 @@
-import { GetStaticProps, NextPage } from 'next';
+import { GetStaticProps } from 'next';
 
 import { fetchProducts } from 'lib/products/fetch';
 
 import Products from 'components/Products';
 
-import { IProductsProps } from './types';
+import { IProduct } from 'models/Product';
 
-const ProductsPage: NextPage<IProductsProps> = ({ initialProducts }) => (
-  <Products initialProducts={initialProducts} />
-);
+interface IProductsProps {
+  initialProducts: IProduct[];
+}
+
+export default function ProductsPage({ initialProducts }: IProductsProps) {
+  return <Products initialProducts={initialProducts} />;
+}
 
 export const getStaticProps: GetStaticProps = async () => {
-  const initialProducts = await fetchProducts();
-
-  return {
-    props: {
-      initialProducts,
-    },
-    revalidate: 3600,
-  };
+  try {
+    const initialProducts = await fetchProducts();
+    return {
+      props: {
+        initialProducts,
+      },
+      revalidate: 3600,
+    };
+  } catch (error) {
+    return {
+      props: {
+        initialProducts: [],
+      },
+    };
+  }
 };
-
-export default ProductsPage;

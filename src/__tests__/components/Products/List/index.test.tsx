@@ -2,7 +2,7 @@ import { render, screen } from '@testing-library/react';
 
 import ProductsList from 'components/Products/List';
 
-jest.mock('../../../Products/Card', () => ({
+jest.mock('components/Products/Card', () => ({
   __esModule: true,
   default: ({ name, price }: { name: string; price: { current: number; retail: number } }) => (
     <div>
