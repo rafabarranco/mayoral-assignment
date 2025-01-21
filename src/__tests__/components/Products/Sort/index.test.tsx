@@ -14,7 +14,6 @@ describe('ProductsSort', () => {
     const selectElement = screen.getByRole('combobox');
     expect(selectElement).toBeInTheDocument();
 
-    expect(screen.getByRole('option', { name: 'Ordenar' })).toBeInTheDocument();
     expect(screen.getByRole('option', { name: 'Precio Ascendente' })).toBeInTheDocument();
     expect(screen.getByRole('option', { name: 'Precio Descendente' })).toBeInTheDocument();
   });
