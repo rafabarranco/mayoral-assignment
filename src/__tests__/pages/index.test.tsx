@@ -1,8 +1,6 @@
 import { act, Suspense } from 'react';
 import { render, screen } from '@testing-library/react';
-
 import { fetchProducts } from 'lib/products/fetch';
-
 import ProductsPage, { getStaticProps } from 'pages';
 
 jest.mock('lib/products/fetch', () => ({
@@ -20,6 +18,10 @@ const mockProducts = [
 ];
 
 describe('ProductsPage', () => {
+  beforeEach(() => {
+    jest.clearAllMocks();
+  });
+
   it('renders products correctly', async () => {
     (fetchProducts as jest.Mock).mockResolvedValueOnce(mockProducts);
 
@@ -32,18 +34,30 @@ describe('ProductsPage', () => {
     });
 
     mockProducts.forEach((product) => {
-      expect(
-        screen.getByText((content, element) => content.includes(product.name)),
-      ).toBeInTheDocument();
+      expect(screen.getByText((content) => content.includes(product.name))).toBeInTheDocument();
     });
   });
 
   it('fetches products with getStaticProps', async () => {
-    (fetchProducts as jest.Mock).mockResolvedValue(mockProducts);
+    (fetchProducts as jest.Mock).mockResolvedValueOnce(mockProducts);
 
     const { props } = await getStaticProps();
 
-    expect(fetchProducts).toHaveBeenCalled();
+    expect(fetchProducts).toHaveBeenCalledTimes(1);
     expect(props.initialProducts).toEqual(mockProducts);
+  });
+
+  it('renders empty state when no products are fetched', async () => {
+    (fetchProducts as jest.Mock).mockResolvedValueOnce([]);
+
+    await act(async () => {
+      render(
+        <Suspense fallback="Loading...">
+          <ProductsPage initialProducts={[]} />
+        </Suspense>,
+      );
+    });
+
+    expect(screen.getByText('Loading...')).toBeInTheDocument();
   });
 });

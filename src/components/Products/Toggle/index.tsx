@@ -13,6 +13,7 @@ const ProductsGridToggle: FC<IGridToggleProps> = ({ toggleConfig, cols, onChange
 
   return (
     <div
+      role="button"
       className="relative flex items-center w-12 h-6 p-0.5 bg-blue-300 rounded-full cursor-pointer"
       onClick={handleToggleClick}
     >
