@@ -11,9 +11,9 @@ describe('ProductsGridToggle', () => {
       <ProductsGridToggle toggleConfig={toggleConfig} cols={cols} onChangeCols={onChangeCols} />,
     );
 
-    const toggle = screen.getByRole('button'); // Verifica si el toggle es un botón
+    const toggle = screen.getByRole('button');
     expect(toggle).toBeInTheDocument();
-    expect(screen.getByText('2')).toBeInTheDocument(); // Verifica que el valor 2 esté en pantalla
+    expect(screen.getByText('2')).toBeInTheDocument();
   });
 
   it('changes columns value when clicked', () => {
@@ -26,9 +26,8 @@ describe('ProductsGridToggle', () => {
     );
 
     const toggle = screen.getByRole('button');
-    fireEvent.click(toggle); // Dispara el clic en el toggle
+    fireEvent.click(toggle);
 
-    // Verifica que onChangeCols haya sido llamado con el valor adecuado
     expect(onChangeCols).toHaveBeenCalledWith(3);
   });
 
@@ -42,9 +41,8 @@ describe('ProductsGridToggle', () => {
     );
 
     const toggle = screen.getByRole('button');
-    fireEvent.click(toggle); // Cambia el valor de las columnas al hacer clic
+    fireEvent.click(toggle);
 
-    // Verifica que onChangeCols haya sido llamado con el valor adecuado
     expect(onChangeCols).toHaveBeenCalledWith(2);
   });
 });
