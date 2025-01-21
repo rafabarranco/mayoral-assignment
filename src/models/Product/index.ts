@@ -20,3 +20,7 @@ export interface IProduct {
   price: IPrice;
   colors: IColor[];
 }
+
+export interface IProductsProps {
+  initialProducts: IProduct[];
+}
