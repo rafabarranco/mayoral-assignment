@@ -2,27 +2,27 @@ import { render, screen } from '@testing-library/react';
 
 import ProductCard from 'components/Products/Card';
 
-jest.mock('../../../Products/Card/components/Thumbnail', () => ({
+jest.mock('components/Products/Card/components/Thumbnail', () => ({
   __esModule: true,
   default: ({ image, name }: { image: string; name: string }) => <img src={image} alt={name} />,
 }));
 
-jest.mock('../../../Products/Card/components/Section', () => ({
+jest.mock('components/Products/Card/components/Section', () => ({
   __esModule: true,
   default: ({ children }: { children: React.ReactNode }) => <div>{children}</div>,
 }));
 
-jest.mock('../../../Products/Card/components/Name', () => ({
+jest.mock('components/Products/Card/components/Name', () => ({
   __esModule: true,
   default: ({ name }: { name: string }) => <h2>{name}</h2>,
 }));
 
-jest.mock('../../../Products/Card/components/Price', () => ({
+jest.mock('components/Products/Card/components/Price', () => ({
   __esModule: true,
   default: ({ price }: { price: { current: number; retail: number } }) => <p>{price.current} €</p>,
 }));
 
-jest.mock('../../../Products/Card/components/Colors', () => ({
+jest.mock('components/Products/Card/components/Colors', () => ({
   __esModule: true,
   default: ({ colors }: { colors: { id: string; name: string; image: string }[] }) => (
     <div>
@@ -33,7 +33,7 @@ jest.mock('../../../Products/Card/components/Colors', () => ({
   ),
 }));
 
-jest.mock('../../../Products/Card/components/Button', () => ({
+jest.mock('components/Products/Card/components/Button', () => ({
   __esModule: true,
   default: () => <button>Buy Now</button>,
 }));
