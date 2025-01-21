@@ -5,10 +5,10 @@ import { fetchProducts } from 'lib/products/fetch';
 
 import ProductsSort from './Sort';
 import ProductsSearchBar from './SearchBar';
+import ProductsGridToggle from './Toggle';
 
 import { IProduct, TSortOrder } from 'models/Product';
-import { IProductsProps } from './types';
-import ProductsGridToggle from './Toggle';
+import { IProductsProps } from 'models/Product';
 
 const ProductsList = dynamic(() => import('./List'), {
   ssr: false,

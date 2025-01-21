@@ -4,11 +4,7 @@ import { fetchProducts } from 'lib/products/fetch';
 
 import Products from 'components/Products';
 
-import { IProduct } from 'models/Product';
-
-interface IProductsProps {
-  initialProducts: IProduct[];
-}
+import { IProductsProps } from 'models/Product';
 
 export default function ProductsPage({ initialProducts }: IProductsProps) {
   return <Products initialProducts={initialProducts} />;
